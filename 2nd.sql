@@ -29,3 +29,5 @@ CREATE TABLE DETAILS(
 DROP table STUDENT;
 
 SHOW DATABASES;
+drop database if exists STUDENT;
+drop database if exists collage;
