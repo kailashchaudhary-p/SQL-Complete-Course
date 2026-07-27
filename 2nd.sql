@@ -45,4 +45,16 @@ VALUES
 (104, 'ECE', 'Aman'),
 (105, 'ME', 'Rohit');
 SELECT * FROM LIST_DETAILS;
+CREATE DATABASE IF NOT EXISTS NEW_COMPANY;
+CREATE TABLE Employe_info(
+	id INT PRIMARY KEY ,
+    Name VARCHAR (25),
+    Salary INT PRIMARY KEY);
+USE NEW_COMPANY;
+INSERT INTO Emplye_info(id,Name,Salary)
+VALUES
+(15,"Ram",15000),
+(20,"Sham",20000),
+(25,"Ramu",25000);
+    
 
