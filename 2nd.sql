@@ -49,12 +49,8 @@ CREATE DATABASE IF NOT EXISTS NEW_COMPANY;
 CREATE TABLE Employe_info(
 	id INT PRIMARY KEY ,
     Name VARCHAR (25),
-    Salary INT PRIMARY KEY);
-USE NEW_COMPANY;
-INSERT INTO Emplye_info(id,Name,Salary)
+    Salary INT (50));
+INSERT INTO Employe_info(ID,NAME,SALARY)
 VALUES
-(15,"Ram",15000),
-(20,"Sham",20000),
-(25,"Ramu",25000);
-    
+(1,"RAM",10);
 
