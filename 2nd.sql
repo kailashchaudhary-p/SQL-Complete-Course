@@ -68,3 +68,24 @@ USE NEW_COMPANY;
 CREATE TABLE TEMP2(
   ID INT, FOREIGN  KEY (ID) REFERENCES Temp(ID),
   DEMO VARCHAR (20));
+  
+CREATE TABLE emp(
+ id INT,
+ Salary INT DEFAULT 52000
+);
+INSERT INTO emp(id)
+values
+(55),
+(45);
+select * from emp; 
+USE NEW_COMPANY;
+CREATE TABLE TEMP3(
+  ID INT primary KEY,
+  CITY varchar (50),
+  AGE INT ,
+  constraint AGE_CHECK check( AGE>=18 AND CITY="MUMBAI") 
+  );
+  INSERT INTO TEMP3 (ID , CITY ,AGE )
+  VALUES
+  (1,"HAJIPUR",14);
+  
