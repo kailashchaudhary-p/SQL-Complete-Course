@@ -25,4 +25,9 @@ values
 (110,"Vikas",72,"C","Patna"),
 (1011,"Rahul",85,"A","Delhi");
 
+USE collage;
+
+select name ,marks from students;
+select * from collage;
+
 
