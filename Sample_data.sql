@@ -28,6 +28,19 @@ values
 USE collage;
 
 select name ,marks from students;
-select * from collage;
+select distinct city from students;
+select * from students where marks>80;
+select * from students where city="patna";
+select * 
+from students 
+where marks+20>100 and city!="patna";
+select * 
+from students 
+where marks+20>100 or city!="patna";
+select * 
+from students 
+where marks between 75 and 95;
+select * from students where city  in("patna","mumbai"); 
+
 
 
