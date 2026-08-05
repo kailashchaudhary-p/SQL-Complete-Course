@@ -41,6 +41,8 @@ select *
 from students 
 where marks between 75 and 95;
 select * from students where city  in("patna","mumbai"); 
-
+select * from students limit 5;
+select * from students order by marks desc;
+select * from students order by marks asc;
 
 
