@@ -44,5 +44,14 @@ select * from students where city  in("patna","mumbai");
 select * from students limit 5;
 select * from students order by marks desc;
 select * from students order by marks asc;
+-- functions in SQL
+select max(marks) from students; 
+select count(marks) from students; 
+select min(marks) from students; 
+select sum(marks) from students; 
+select avg(marks) from students; 
+
+
+
 
 
