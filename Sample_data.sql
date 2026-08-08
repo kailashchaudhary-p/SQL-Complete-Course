@@ -50,7 +50,10 @@ select count(marks) from students;
 select min(marks) from students; 
 select sum(marks) from students; 
 select avg(marks) from students; 
-
+-- group by clause 
+select city , count(name)
+from students 
+group by city;
 
 
 
