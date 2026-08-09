@@ -55,6 +55,14 @@ select city , count(name)
 from students 
 group by city;
 
+select city, avg(marks) 
+from students 
+group by city
+order by avg(marks)desc; 
+use collage;
+select grade,count(grade)
+from students
+group by grade ;
 
 
 
