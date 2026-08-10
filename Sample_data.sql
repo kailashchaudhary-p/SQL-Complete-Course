@@ -62,7 +62,21 @@ order by avg(marks)desc;
 use collage;
 select grade,count(grade)
 from students
-group by grade ;
+group by grade ; 
+
+select count(name),city 
+from students 
+group by city
+having max(marks)>65;
+
+use collage;
+select city 
+from students 
+where grade = "A"
+group by city
+having max(marks) >= 90
+order by city desc;
+
 
 
 
