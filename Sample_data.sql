@@ -77,6 +77,15 @@ group by city
 having max(marks) >= 90
 order by city desc;
 
+use collage;
+select city 
+from students 
+where grade = "B"
+group by city 
+having max(marks) >=80
+order by city asc;
+
+
 
 
 
