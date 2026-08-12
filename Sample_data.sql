@@ -85,7 +85,10 @@ group by city
 having max(marks) >=80
 order by city asc;
 
-
+use collage ;
+update students 
+set grade = "O"
+where grade = "A";
 
 
 
