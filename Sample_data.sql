@@ -89,6 +89,9 @@ use collage ;
 update students 
 set grade = "O"
 where grade = "A";
-
+use collage ;
+update students
+set garde = "A"
+where grade = "O";
 
 
