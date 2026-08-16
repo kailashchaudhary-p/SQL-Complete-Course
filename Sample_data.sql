@@ -89,9 +89,22 @@ use collage ;
 update students 
 set grade = "O"
 where grade = "A";
-use collage ;
-update students
-set garde = "A"
-where grade = "O";
+
+SET SQL_SAFE_UPDATES = 0;
+select * FROM students ;
+
+update students 
+set marks = 91
+where marks = 59;
+
+update students 
+set marks = 99
+where marks = 81;
+
+update students 
+set grade = "B"
+where marks between 80 and 90;
+select * from students;
+
 
 
