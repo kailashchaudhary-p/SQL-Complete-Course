@@ -106,5 +106,10 @@ set grade = "B"
 where marks between 80 and 90;
 select * from students;
 
+use collage;
+
+update students 
+set marks = 99
+where marks = 72;
 
 
